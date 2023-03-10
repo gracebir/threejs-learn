@@ -23,7 +23,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true)
     emailjs.send(
-      process.env.REACT_APP_SERVICE_ID,
+      'service_u5d0kej',
       'template_7busily',
       {
         from_name: form.name,
@@ -32,7 +32,7 @@ const Contact = () => {
         to_email: 'birindwan@gmail.com',
         message: form.message
       },
-      process.env.REACT_APP_PUBLIC_KEY
+      'qtTDa92xUMihFYVNy'
       ).then(()=> {
         setLoading(false)
         alert("Thank you. I will get back to you as soon as possible.")
@@ -46,6 +46,7 @@ const Contact = () => {
         console.log(err)
         alert("something went wrong")
       })
+      console.log("submit")
   }
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
