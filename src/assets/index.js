@@ -29,6 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import company from './companing.png'
+import distributed from './distributed.jpeg'
+
+import amazon from "../assets/projects/amazon.png";
+import buymore from "../assets/projects/buymore.png";
+import landing from "../assets/projects/landing-page.jpg";
+import memoryGame from "../assets/projects/memory-game.png";
+import country from "../assets/projects/countries.jpg";
 
 export {
   logo,
@@ -59,4 +67,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  company,
+  distributed,
+  buymore,
+  memoryGame,
+  landing,
+  amazon,
+  country
 };

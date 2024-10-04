@@ -42,7 +42,7 @@ const About = () => {
     </motion.div>
     <motion.p className="mt-4 text-secondary tex-[1.0625rem] max-w-3xl leading-[30px]" variants={ fadeIn("","",0.1, 1)}>
       I'm a skilled software engineer with experience with Typescipt and Javascript
-      , and expertise in libraries like React, Three.js, Next.js, and Node.js. I'm a
+      , and expertise in libraries like React, Three.js enthusiast, Next.js, and Node.js. I'm a
       quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions
        that solve real-world problems. let's work together to bring your ideas to life!
     </motion.p>

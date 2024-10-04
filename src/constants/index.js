@@ -1,7 +1,10 @@
 import {
     mobile,
     backend,
-    creator,
+    memoryGame,
+    buymore,
+    country,
+    company,
     web,
     javascript,
     typescript,
@@ -15,13 +18,7 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+   distributed,
     threejs,
   } from "../assets";
   
@@ -53,10 +50,7 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+
   ];
   
   const technologies = [
@@ -117,56 +111,69 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "SkillyHub SAS",
+      icon: company,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "October 2019 - Dec 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+          "Developing and maintaining web applications using React.js and other related technologies.",
+          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+  },
+  {
+      title: "ODK/Kobo toolbox Consultant",
+      company_name: "DataXchange group ",
+      icon: company,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+          "Analysis of the technical specifications of the electronic tools, database, and applications to be implemented for the Guinea PBF project.",
+          "Programming first the data collection form using the Kobo toolbox  for the health centers, hospitals, DPS, and DRS for the AGFA project in Guinea concerning the evaluation of the quality of the indicators, involving the survey questionnaires, the data collection forms.",
+          "Construction of electronic forms on Kobo for community surveys in health centers and hospitals, testing of Kobotoolbox electronic forms, and review of changes.",
+          "Building electronic forms on Kobotoolbox for community surveys in DPS and DRS, testing Kobotoolbox electronic forms, and review of changes.",
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+  },
+  {
+      title: "Software Engineer",
+      company_name: "Gitstart",
+      icon: company,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Nov 2021 - Sept 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+          "Developing and maintaining web applications using React.js and other related technologies.",
+          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
-    {
+  },
+  {
+      title: "Software Engineer (Freelancing)",
+      company_name: "R&I Software",
+      icon: company,
+      iconBg: "#383E56",
+      date: "Nov 2022 - Feb 2023",
+      points: [
+          "Developing and maintaining web applications using React.js and other related technologies.",
+          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+  },
+  {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Distributed",
+      icon: distributed,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+          "Developing and maintaining web applications using React.js and other related technologies.",
+          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
+  },
   ];
   
   const testimonials = [
@@ -198,12 +205,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Buymore",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Buymore is a cutting-edge e-commerce platform developed using the latest technologies to provide users with a seamless and engaging online shopping experience. Built on a robust stack including React.js, Next.js, Prisma, TypeScript, and PostgreSQL, Buymore offers a feature-rich environment for both customers and administrators.",
       tags: [
         {
-          name: "react",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
@@ -214,51 +221,55 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: buymore,
+      source_code_link: "https://github.com/gracebir/buymore",
     },
     {
-      name: "Job IT",
+      name: "Memory Game",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A memory game is a mental challenge where players must match pairs of identical cards by flipping them over in a grid. The objective is to remember the card locations and find all matches in the fewest moves possible. It tests one's concentration, cognitive skills, and memory recall while providing an engaging and fun activity.",
       tags: [
         {
-          name: "react",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: memoryGame,
+      source_code_link: "https://github.com/gracebir/memory-game",
     },
     {
-      name: "Trip Guide",
+      name: "Country Info",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Rest Countries Explorer project is a front-eThe Rest Countries Explorer project is a front-end web application that leverages the Rest Countries API to provide comprehensive information about various countries around the world. The application allows users to explore details of individual countries, search for specific countries, and filter countries based on their respective continents.",
       tags: [
         {
-          name: "nextjs",
+          name: "vue.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Api integration",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwincss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: country,
+      source_code_link: "https://github.com/gracebir/vue-country-info-app",
     },
   ];
   
